@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800;900&family=Rubik+Scribble&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans",sans-serif;
+}
+.product-link{
+    text-decoration: none;
+    color:black;
+}
+
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-image:url('../src/images/slider-5.jpg');
+    background-size:cover;
+    height:97vh;
+    position:relative;
+}
+
+.landing-container p{
+    color:rgb(146, 146, 146);
+}
+
+.images{
+    position: absolute;
+    top:0;
+    right:12vw;
+}
+
+.landing-container button{
+    padding:10px 25px;
+    background: transparent;
+}
+
+
+.image1{
+    margin-top:-14.5vh;
+    margin-right:5vw;
+}
+
+.image3{
+    margin-top:-18vh;
+    margin-left:5vw;
+}
+
+.card-img-top {
+    height: 300px;
+    height: 300px;
+    object-fit: cover; 
+}
